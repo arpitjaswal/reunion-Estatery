@@ -1,6 +1,7 @@
 import Nav from "./components/Nav"
 import './App.css'
-import { ChakraProvider } from "@chakra-ui/react";
+import { ChakraProvider, Text } from "@chakra-ui/react";
+
 
 function App() {
 
@@ -8,6 +9,8 @@ function App() {
     <>
     <ChakraProvider>
       <Nav/>
+      <Text fontSize='45' fontWeight='800'>Search properties to rent</Text>
+      
     </ChakraProvider>
      
     </>

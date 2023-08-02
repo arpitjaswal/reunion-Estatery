@@ -6,16 +6,24 @@
     align-items: center;
     justify-content: space-between;
     font-family: "Roboto";
-    border: 1px solid red;
+    min-height: 3.5em;
+    background-color: rgb(248, 247, 253,0.6);
+    backdrop-filter: blur(15px);
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0px 0px 20px rgba(177, 177, 177);
+    backdrop-filter: blur(12px);
+    z-index: 2;
+
 }
 
 .logo-div{
     margin-left: 40px;
-    border: 1px solid red;
+
 }
 
 .logo{
     size: 190px;
+    color:rgb(122, 116, 232);
 }
 .logo-text{
     font-family: "Roboto";
@@ -29,16 +37,16 @@
 
 }
 .NavBar{
-    border: solid 1px red; 
-    width: 50%;
-   margin-left: -10px;
+  
+    width: 55%;
+   margin-left: -115px;
+   
 }
 .list-items{
     display: flex;
     align-items: center;
     justify-content: space-between;
     list-style: none;
- 
     width: 80%;
 }
 
@@ -46,7 +54,33 @@
     display: flex;
     justify-content: space-between;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 17px;
+    margin: 1px;
+    padding: 10px;
+}
+.list-item:hover{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+    font-size: 17px;
+    margin-left: 40px;
+    margin: 1px;
+    padding: 10px;
+    color: rgb(122, 116, 232);
+    background-color: rgb(233, 229, 238);
+}
+#x{
+    .list-item:hover{
+        display: flex;
+        justify-content: space-between;
+        font-weight: 500;
+        font-size: 17px;
+        margin-left: 40px;
+        background-color: rgb(233, 229, 238);
+        margin: 10px;
+        padding: 10px;
+        color: rgb(122, 116, 232);
+    }
 }
 .userInformation{
     display: flex;
@@ -54,7 +88,7 @@
     align-items: center;
     justify-content: space-between;
     margin-right: 10px;
-    border: 1px solid red;
+
 }
 
 
